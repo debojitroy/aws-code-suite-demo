@@ -8,4 +8,4 @@
 
 [AWS Code Pipeline](https://docs.aws.amazon.com/codepipeline/latest/userguide/welcome.html)
 
-[Difference between them](https://www.reddit.com/r/aws/comments/uv2tlq/confused_about_code_pipeline_code_build_and_code/)
+[Difference between AWS Services](https://www.reddit.com/r/aws/comments/uv2tlq/confused_about_code_pipeline_code_build_and_code/)
