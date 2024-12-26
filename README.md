@@ -13,3 +13,9 @@
 [Movie Database](https://developer.themoviedb.org/docs/getting-started)
 
 [Express JS](https://expressjs.com/)
+
+[AWS CDK S3 Static Website](https://github.com/aws-samples/aws-cdk-examples/blob/main/typescript/static-site/static-site.ts)
+
+[AWS CDK Fargate Service](https://github.com/aws-samples/aws-cdk-examples/tree/main/typescript/ecs/fargate-application-load-balanced-service)
+
+[AWS CDK Code Deploy](https://github.com/aws-samples/aws-cdk-examples/tree/main/typescript/codepipeline-build-deploy/app)
