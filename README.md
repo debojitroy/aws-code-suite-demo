@@ -13,5 +13,3 @@
 [Movie Database](https://developer.themoviedb.org/docs/getting-started)
 
 [Express JS](https://expressjs.com/)
-
-Test Comments
