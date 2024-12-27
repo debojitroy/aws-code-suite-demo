@@ -1,14 +1,5 @@
-# Welcome to your CDK TypeScript project
+# Movie App Infrastructure
 
-This is a blank project for CDK development with TypeScript.
+## Environment Variables before running `synth`
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
-## Useful commands
-
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+* `github_repo` : Repository name of the `Github` project in `<owner>/<repository>`. Example: `debojitroy/aws-code-suite-demo`
