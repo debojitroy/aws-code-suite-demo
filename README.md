@@ -18,4 +18,4 @@
 
 [AWS CDK Fargate Service](https://github.com/aws-samples/aws-cdk-examples/tree/main/typescript/ecs/fargate-application-load-balanced-service)
 
-[AWS CDK Code Deploy](https://github.com/aws-samples/aws-cdk-examples/tree/main/typescript/codepipeline-build-deploy/app)
+[AWS CDK Code Deploy](https://github.com/aws-samples/aws-cdk-examples/blob/main/typescript/codepipeline-build-deploy/lib/codepipeline-build-deploy-stack.ts)
