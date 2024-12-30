@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 import * as cdk from 'aws-cdk-lib';
-import { InfraStack } from '../lib/infra-stack';
+import { MainPipelineStack } from '../lib/main-pipeline-stack';
 import { config } from 'dotenv';
 
 config();
 
 const app = new cdk.App();
-new InfraStack(app, 'InfraStack', {
+new MainPipelineStack(app, 'MainPipelineStack', {
   owner: process.env.github_owner || '',
   repo: process.env.github_repo || '',
   branch: process.env.github_branch || 'main',

@@ -4,7 +4,7 @@ import * as pipeline from 'aws-cdk-lib/aws-codepipeline';
 import * as pipelineactions from 'aws-cdk-lib/aws-codepipeline-actions';
 import * as s3 from 'aws-cdk-lib/aws-s3';
 
-export interface InfraStackProps extends cdk.StackProps {
+export interface PipelineStackProps extends cdk.StackProps {
   // Define construct properties here
   readonly owner: string;
   readonly repo: string;
@@ -12,8 +12,8 @@ export interface InfraStackProps extends cdk.StackProps {
   readonly oauthToken: string;
 }
 
-export class InfraStack extends cdk.Stack {
-  constructor(scope: Construct, id: string, props: InfraStackProps) {
+export class PipelineStack extends cdk.Stack {
+  constructor(scope: Construct, id: string, props: PipelineStackProps) {
     super(scope, id, props);
 
     // Creates new pipeline artifacts
